@@ -1,0 +1,15 @@
+.mapboxgl-map {
+  border-radius: 8px;
+  border: thin solid #ebe7e7;
+  box-shadow: -2px 1px 20px 7px #ececec;
+  width: "100vw";
+  height: "100vh";
+
+  
+  .marker {
+    background-image: url("../../assets/drone.png");
+    height: 4rem;
+    width: 4rem;
+    background-size: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.main-container{
+    display: flex;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: start;
+}
+@media only screen and (max-width: 888px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
